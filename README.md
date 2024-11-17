@@ -14,7 +14,8 @@ This repository contains an interactive COVID-19 Dashboard built with Dash and P
 #### 4. Fully Interactive:
 - Dynamic dropdowns and graphs.
 - Responsive and visually appealing design.
-## Installation and Usage
+(Screenshots of the dashboard are available in the 'Images' folder of this repository)
+## Installation
 Follow these steps to set up and run the dashboard locally:
 #### 1. Clone the Repository:
 https://github.com/aol3/COVID-19-Dashboard.git
@@ -25,5 +26,23 @@ Navigate to the 'Dataset' folder and download the 'worldometer_data.csv' dataset
 #### 4. Run the App:
 - if using Jupyter Notebook: app.run_server(mode="inline")
 - If you are running the app from a terminal, save the code in a file with the .py extension (e.g., app.py) and run the following command: python app.py
+## Usage
+This dashboard is designed to help user visualize COVID-19 trends and compare data across countries. It's ideal for:
+- Data enthusiats exploring global trends.
+- Students and professionals analysing the impact of the pandemic.
+## Customization
+- Replace the dataset 'worldometer_data.csv' with your own dataset for custom visualizations.
+- Modify the 'covid_dashboard.ipynb' file to add additional panels or update existing graphs.
+## Author
+**Aolat Lawal**
+
+  [GitHub](https://github.com/aol3) | [LinkedIn](https://www.linkedin.com/in/aolat-lawal/)
+## Disclaimer
+- This dashboard was created as a personal project to practice and showcase data visualization skills using Dash and Plotly.
+- The dataset used in this dashboard was obtained from Kaggle and primarily represents COVID-19 data from 2020/2021. It does not reflect current COVID-19 trends or data.
+- Users can replace the provided dataset with any other COVID-19 dataset of their choice, provided dataset has compatible column names. This allows the dashboaerd to visualize updated or alternative data.
+
+**Source**: The original dataset can be found on Kaggle [here](https://www.kaggle.com/datasets/imdevskp/corona-virus-report).
+  
 
 
