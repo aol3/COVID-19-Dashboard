@@ -14,6 +14,14 @@ This repository contains an interactive COVID-19 Dashboard built with Dash and P
 #### 4. Fully Interactive:
 - Dynamic dropdowns and graphs.
 - Responsive and visually appealing design.
-## Installation
+## Installation and Usage
 Follow these steps to set up and run the dashboard locally:
-#### 1. Clone the Repository: https://github.com/aol3/COVID-19-Dashboard.git
+#### 1. Clone the Repository:
+https://github.com/aol3/COVID-19-Dashboard.git
+#### 2. Install Depencies:
+Install all the required dependencies listed in the 'requirements.txt' file by running the following command in your terminal: pip install -r requirements.txt.
+#### 3. Add Dataset: 
+Navigate to the 'Dataset' folder and download the 'worldometer_data.csv' dataset, this should be placed in the root directory of the project.
+#### 4. Run the App:
+if using Jupyter Notebook: app.run_server(mode="inline")
+
