@@ -23,5 +23,7 @@ Install all the required dependencies listed in the 'requirements.txt' file by r
 #### 3. Add Dataset: 
 Navigate to the 'Dataset' folder and download the 'worldometer_data.csv' dataset, this should be placed in the root directory of the project.
 #### 4. Run the App:
-if using Jupyter Notebook: app.run_server(mode="inline")
+- if using Jupyter Notebook: app.run_server(mode="inline")
+- If you are running the app from a terminal, save the code in a file with the .py extension (e.g., app.py) and run the following command: python app.py
+
 
