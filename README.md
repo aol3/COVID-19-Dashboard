@@ -14,3 +14,6 @@ This repository contains an interactive COVID-19 Dashboard built with Dash and P
 #### 4. Fully Interactive:
 - Dynamic dropdowns and graphs.
 - Responsive and visually appealing design.
+## Installation
+Follow these steps to set up and run the dashboard locally:
+#### 1. Clone the Repository: https://github.com/aol3/COVID-19-Dashboard.git
